@@ -1,0 +1,28 @@
+{
+  "$id": "1",
+  "startDate": "2022-12-23T00:00:00",
+  "completionDate": "2022-12-23T00:00:00",
+  "priority": 0,
+  "status": 0,
+  "tasks": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "0",
+        "projectId": 0,
+        "project": {
+          "$ref": "1"
+        },
+        "description": "Task inserted within project's Create operation'",
+        "priority": 0,
+        "status": 0,
+        "id": 0,
+        "name": "Task ToDo Some job.",
+        "objVersion": ""
+      }
+    ]
+  },
+  "id": 0,
+  "name": "New Project with tasks",
+  "objVersion": ""
+}

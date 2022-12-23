@@ -1,0 +1,28 @@
+{
+  "$id": "1",
+  "projectId": 1,
+  "project": {
+    "$id": "2",
+    "startDate": "2022-12-23T00:00:00",
+    "completionDate": "2023-07-11T00:00:00",
+    "priority": 0,
+    "status": 0,
+    "tasks": {
+      "$id": "3",
+      "$values": [
+        {
+          "$ref": "1"
+        }
+      ]
+    },
+    "id": 1,
+    "name": "Project One",
+    "objVersion": ""
+  },
+  "description": "Some Desc Two",
+  "priority": 0,
+  "status": 1,
+  "id": 0,
+  "name": "My New Task",
+  "objVersion": ""
+}

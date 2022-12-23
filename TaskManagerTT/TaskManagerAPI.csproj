@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="RequestExamples\json.json" />
+    <Content Remove="RequestExamples\ProjectTestAdd.json" />
+    <Content Remove="RequestExamples\ProjectTestAdd_ext.json" />
+    <Content Remove="RequestExamples\ProjectTestDelete.json" />
+    <Content Remove="RequestExamples\ProjectTestUpdate.json" />
+    <Content Remove="RequestExamples\TaskTestAdd.json" />
+    <Content Remove="RequestExamples\TaskTestDelete.json" />
+    <Content Remove="RequestExamples\TaskTestUpdate.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="RequestExamples\json.json" />
+    <None Include="RequestExamples\ProjectTestAdd_ext.json" />
+    <None Include="RequestExamples\ProjectTestAdd.json" />
+    <None Include="RequestExamples\ProjectTestDelete.json" />
+    <None Include="RequestExamples\ProjectTestUpdate.json" />
+    <None Include="RequestExamples\TaskTestAdd.json" />
+    <None Include="RequestExamples\TaskTestDelete.json" />
+    <None Include="RequestExamples\TaskTestUpdate.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagerTT.DataLayer\TaskManager.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>
