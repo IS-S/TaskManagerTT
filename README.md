@@ -201,7 +201,7 @@ Test serialized data file is "TaskManagerTT\RequestExamples\ TaskTestDelete.json
 #### Delete existing Project
 Route: [root]+ ProjectDelete.
 
-HTTPPost (SiProject project), where **task** is an instance SiProject to be processed.
+HTTPPost (SiProject project), where **project** is an instance SiProject to be processed.
 
 Http request must contain serialized **Project** with user defined properties, including **Id** (int) of existing task to update and **ObjVersion** (byte), except **Tasks** property. Deleting Project entity will perform cascade deleting which is controlled by Database engine all related task entities.
 
